@@ -8,7 +8,7 @@ There are many problems are solved simply by repetition or using math.  These ma
 NEXT!
 
 ##### Problem 2
-Search a dictionary
+Necklace Sequence
 
 ##### Problem 3
 Convert to binary
