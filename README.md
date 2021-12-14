@@ -1,13 +1,15 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #xx <Title> (Total Marks xx)
+### Assignment #104 Algorithms
 
-Objectives:
-* 
+There are many problems are solved simply by repetition or using math.  These may require the use of while loops, for loops, or cycling through lists multiple times to solve the problem. 
 
-<Description>
 
-### XX Tasks
+##### Problem 1
+NEXT!
 
-##### Task 1
-(x points) 
+##### Problem 2
+Search a dictionary
+
+##### Problem 3
+Convert to binary
 
