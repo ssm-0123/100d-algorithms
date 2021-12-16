@@ -24,8 +24,8 @@ def toDecimal(myList):
 
 def problem1():
   assert toBinary(0) == [0,0,0,0,0,0,0,0]
-  assert toBinary(1) == [0,1,0,0,0,0,0,0]
-  assert toBinary(2) == [0,0,1,0,0,0,0,0]
+  assert toBinary(1) == [1,0,0,0,0,0,0,0]
+  assert toBinary(2) == [0,1,0,0,0,0,0,0]
   assert toBinary(5) == [1,0,1,0,0,0,0,0]
   assert toBinary(10) == [0,1,0,1,0,0,0,0]
   assert toBinary(30) == [0,1,1,1,1,0,0,0]
@@ -33,8 +33,8 @@ def problem1():
 
 def problem2():
   assert toBinary([0,0,0,0,0,0,0,0]) == 0
-  assert toBinary([0,1,0,0,0,0,0,0]) == 1
-  assert toBinary([0,0,1,0,0,0,0,0]) == 2
+  assert toBinary([1,0,0,0,0,0,0,0]) == 1
+  assert toBinary([0,1,0,0,0,0,0,0]) == 2
   assert toBinary([1,0,1,0,0,0,0,0]) == 5
   assert toBinary([0,1,0,1,0,0,0,0]) == 10
   assert toBinary([0,1,1,1,1,0,0,0]) == 30
