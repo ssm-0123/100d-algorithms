@@ -24,7 +24,7 @@ def main():
   assert next( 1 , data ) == 2
   data = [True, True, False, False, True, False, True]
   assert next( 1 , data ) == 4
-  assert next( 6 , data ) == 1
+  assert next( 6 , data ) == 0
   assert next( 0 , data ) == 1
   assert next( 3 , data ) == 4
   data = [True, True, False]
