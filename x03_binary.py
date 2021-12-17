@@ -32,13 +32,13 @@ def problem1():
   assert toBinary(45) == [1,0,1,1,0,1,0,0]
 
 def problem2():
-  assert toBinary([0,0,0,0,0,0,0,0]) == 0
-  assert toBinary([1,0,0,0,0,0,0,0]) == 1
-  assert toBinary([0,1,0,0,0,0,0,0]) == 2
-  assert toBinary([1,0,1,0,0,0,0,0]) == 5
-  assert toBinary([0,1,0,1,0,0,0,0]) == 10
-  assert toBinary([0,1,1,1,1,0,0,0]) == 30
-  assert toBinary([1,0,1,1,0,1,0,0]) == 45
+  assert toDecimal([0,0,0,0,0,0,0,0]) == 0
+  assert toDecimal([1,0,0,0,0,0,0,0]) == 1
+  assert toDecimal([0,1,0,0,0,0,0,0]) == 2
+  assert toDecimal([1,0,1,0,0,0,0,0]) == 5
+  assert toDecimal([0,1,0,1,0,0,0,0]) == 10
+  assert toDecimal([0,1,1,1,1,0,0,0]) == 30
+  assert toDecimal([1,0,1,1,0,1,0,0]) == 45
   
 if __name__ == "__main__":
   problem1()
