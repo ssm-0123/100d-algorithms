@@ -1,21 +1,25 @@
-#!python3
-
-"""
-There are 2 important pieces of data that are going to be used for this assignment:
-curValue : (an integer)
-data: a List that specifies whether the item should be skipped or not
-False indicates it should be skipped, True indicates it should not be skipped.
-
-Create a funtion that receives 2 input paramters, the curValue and the list Data
-Return the index of the next item to be used
-"""
-
 def next(current , myList):
-  '''
-  determine the next item from the list. The list contains False/True Boolean values
-  that indicate whether the current item can be used
-  '''
-  return None
+    '''
+    determine the next item from the list. The list contains False/True Boolean values
+    that indicate whether the current item can be used
+    '''
+    tried = 0
+    current = int(current)+1
+    if current >= len(myList):
+        current = 0
+    while True:
+        if myList[current] == False:
+            current = current+1
+            tried = tried + 1
+            if current >= len(myList):
+                current = 0
+        if myList[current] == True:
+            return current
+        if tried == len(myList):
+            return None
+
+
+
 
 def main():
   data = [False, True, True, False, True, False]
@@ -40,5 +44,5 @@ def main():
   
   
 
-if __name__ == "__main__:
-  main()
+
+main()

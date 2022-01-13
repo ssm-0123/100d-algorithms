@@ -7,20 +7,29 @@ of 2 that corresponds to that place value
 """
 
 def toBinary(value):
-  '''
-  input: value (int)
-  return : list of values
-  '''
-  
-  return None
+  value = int(value)
+  binary = [0,0,0,0,0,0,0,0]
+  change = 0
+  while True:
+      oneorzero = value%2
+      value = round((value-oneorzero)/2)
+      binary[change] = oneorzero
+      change = change + 1
+      if value == 0:
+
+        return binary
+    
+
+
 
 def toDecimal(myList):
-  '''
-  input: list of values
-  return int
-  convert binary to decimal
-  '''
-  return None
+  binarydict = []
+  for i in range(0,256):
+    binarydict.append(toBinary(i))
+  if myList in binarydict:
+    a = binarydict.index(myList)
+    return a
+
 
 def problem1():
   assert toBinary(0) == [0,0,0,0,0,0,0,0]
